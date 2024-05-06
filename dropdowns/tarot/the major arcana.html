@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Amy Ruiz, IS117-004, Spring 2024 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Major Arcana</title>
+    <link rel="shortcut icon" href="../../images/icon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../styles/dropdowns.css" rel="stylesheet">
+</head>
+<html>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../images/divinationcenterlogo.png" alt="Divination Center"
+                title="Divination Center - The Core of all Divination Information">
+        </a>
+
+        <!-- Hamburger Menu Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Home Button -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+
+                <!-- Astrology Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Astrology
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <li><a class="dropdown-item" href="#">How to Get Your Birth Chart</a></li>
+                        <li><a class="dropdown-item" href="../astrology/astrology basics.html">Astrology Basics</a></li>
+                        <li><a class="dropdown-item" href="#">Advanced Astrology</a></li>
+                        <li><a class="dropdown-item" href="#">Different Charts</a></li>
+                        <li><a class="dropdown-item" href="#">Personal Observations</a></li>
+                        <li><a class="dropdown-item" href="#">Glossary</a></li>
+                    </ul>
+                </li>
+
+                <!-- Tarot Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tarot
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <li><a class="dropdown-item" href="../tarot/the suits.html">The Suits</a></li>
+                        <li><a class="dropdown-item" href="the major arcana.html">The Major Arcana</a></li>
+                        <li><a class="dropdown-item" href="#">Spreads</a></li>
+                    </ul>
+                </li>
+
+                <!-- Numerology Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Numerology
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <li><a class="dropdown-item"
+                                href="../numerology/calculating your life path number.html">Calculating Your Life Path
+                                Number</a></li>
+                        <li><a class="dropdown-item" href="#">Life Path Numbers</a></li>
+                        <li><a class="dropdown-item" href="#">Personal Observations</a></li>
+
+                    </ul>
+                </li>
+
+                <!-- Crystals Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Crystals
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <li><a class="dropdown-item" href="#">Pink and Peach Crystals</a></li>
+                        <li><a class="dropdown-item" href="#">Red and Orange Crystals</a></li>
+                        <li><a class="dropdown-item" href="#">Yellow, Cream, and Gold Crystals</a></li>
+                    </ul>
+                </li>
+
+                <!-- Human Design Chart Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Human Design Chart
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                        <li><a class="dropdown-item" href="#">How To Get Your Human Design Chart</a></li>
+                        <li><a class="dropdown-item" href="#">Interpreting the Chart</a></li>
+                        <li><a class="dropdown-item" href="#">Profile Lines</a></li>
+
+                    </ul>
+                </li>
+
+                <!-- Matrix Destiny Chart Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Matrix Destiny Chart
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                        <li><a class="dropdown-item" href="#">How To Get Your Matrix Destiny Chart</a></li>
+                        <li><a class="dropdown-item" href="#">Interpreting the Chart</a></li>
+                        <li><a class="dropdown-item" href="#">Profile Lines</a></li>
+                    </ul>
+                </li>
+
+                <!-- About Me -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../about me.html">About Me</a>
+                </li>
+
+            </ul>
+    </nav>
+    <hr>
+    <!-- End of Navigation Menu -->
+
+    <!--Content-->
+
+    <!--Introduction-->
+    <div class="container mt-5">
+        <h1>The Major Arcana</h1>
+        <p class="lead">Below you will find basic information on all 22 Major Arcana cards in Tarot. They are all in
+            order with their respective numbers in Tarot alongside them.</p>
+
+        <!--The Major Arcana-->
+        <div class="container mt-5">
+            <h2></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>1. The Fool</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>2. The Magician</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>3. The High Priestess</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>4. The Empress</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>5. The Emperor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>6. The Hierophant</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>7. The Lovers</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>8. The Chariot</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>9. Strength</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>10. The Hermit</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>11. Wheel of Fortune</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>12. Justice</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>13. The Hanged Man</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>14. Death</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>15. Temperance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>16. The Devil</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>17. The Tower</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>18. The Star</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>19. The Moon</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>20. The Sun</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>21. Judgement</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>22. The World</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan odio a felis
+                        commodo,
+                        vel vehicula lorem rutrum. Aliquam erat volutpat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Content-->
+
+    <footer class="text-center mt-5">
+        <p>Copyright © 2024 Divination Center | <a href="#">Terms Of Use</a> | <a href="#">Privacy Statement</a>
+            | Amy
+            Ruiz</p>
+    </footer>
+
+    <!-- JavaScript libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+/*DEVELOPER: Amy Ruiz, IS117-004, Spring 2024*/
+
+
+.introduction {
+    text-align: center;
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+
+/* Main */
+body {
+    background-color: #DCDAEA;
+}
+
+hr {
+    border-color: #DCDAEA;
+}
+
+/* Navigation Bar Colors*/
+.navbar {
+    background-color: #BCABC9;
+    color: grey;
+}
+
+.navbar-nav .nav-link {
+    color: grey;
+}
+
+.dropdown-menu {
+    background-color: #E4D1E7;
+}
+
+.dropdown-item {
+    color: rgb(108, 65, 116) !important;
+}
+
+/* Two-tier navigation */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* About Me */
+h1 {
+  color: #41324e;
+}
+
+
+h2 {
+    color: #655276;
+}
+
+p h5 {
+    color: #655276;
+}
+
+p {
+    color: rgb(64, 46, 81);
+}
+
+
+
+/* Cards */
+.card-title {
+    color: #40334c;
+}
+
+.card {
+    background-color: #E4D1E7;
+    margin: 10px;
+ }
+
+/* Media query for responsiveness */
+@media (max-width: 767px) {
+    .dropdown-submenu .dropdown-menu {
+        position: static;
+        margin-top: 0;
+        width: auto;
+        display: none;
+        box-shadow: none;
+    }
+
+    .dropdown-submenu:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/*Footer*/
+footer p {
+    position: sticky;
+    bottom: 0;
+    color: grey;
+}
+

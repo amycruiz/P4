@@ -1,0 +1,100 @@
+/* Global Styles */
+
+body {
+    background-color: #DCDAEA;
+}
+
+hr {
+    border-color: #DCDAEA;
+}
+
+.navbar {
+    background-color: #BCABC9;
+    color: grey;
+}
+
+.navbar-nav .nav-link {
+    color: grey;
+}
+
+.dropdown-menu {
+    background-color: #E4D1E7;
+}
+
+.dropdown-item {
+    color: rgb(108, 65, 116) !important;
+}
+
+.container {
+    background-color: #C9B5CE;
+    padding: 2%; 
+    margin-top: 2%; 
+    border-radius: 10px;
+}
+
+
+/* Specific Styles for the Introduction */
+.container h1, .container h2 {
+    color: #443447;
+}
+
+.container h2 {
+    margin-top: -5%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container h4 {
+    color:#625465;
+}
+
+
+
+p {
+    color: rgb(241, 237, 237);
+}
+
+ol {
+    color:#625465;
+}
+
+.lead a {
+    color: #443447;
+}
+
+/* Information underneath div and header elements */
+
+.col-md-4 p {
+    background-color:#88768c;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.col-md-5 p {
+    background-color:#88768c;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ol {
+    background-color: #88768c; 
+    border-radius: 10px; 
+}
+
+ol li {
+    padding: 1%; 
+    margin-bottom: 1%; 
+    color: white;
+}
+
+
+/*Footer*/
+footer p {
+    position: sticky;
+    bottom: 0;
+    color: grey;
+}
